@@ -110,7 +110,7 @@ public class Main {
                     line = buff.readLine();
                 }
                Thread.sleep(1200000);
-               System.setProperty("webdriver.edge.driver","C:\\Users\\HARI NANDAN\\IdeaProjects\\selenium\\msedgedriver.exe");
+               System.setProperty("webdriver.edge.driver","C:\\msedgedriver.exe");
                 driver = new EdgeDriver();
                 driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
