@@ -119,13 +119,13 @@ public class Main {
                 Thread.sleep(8000);
 
                 advice = driver.findElement(By.cssSelector("body > div > div.right-area > div > div.content-area > div.phrase-panel > div > div.phrase-inner > div")).getText();
-                /*
+                
                 Random rand1 = new Random();
                 int random1 = rand1.nextInt(1, 4);
                 String[] financehashtag = {"#finance","#market","#news","#business"};
                 text = text + "       "+financehashtag[random1];
 
-                 */
+              
 
                 System.out.println(advice);
 
