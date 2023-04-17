@@ -123,7 +123,7 @@ public class Main {
                 Random rand1 = new Random();
                 int random1 = rand1.nextInt(1, 4);
                 String[] financehashtag = {"#finance","#market","#news","#business"};
-                text = text + "       "+financehashtag[random1];
+                advice = advice + "       "+financehashtag[random1];
 
               
 
